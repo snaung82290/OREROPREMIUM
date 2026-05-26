@@ -4,7 +4,7 @@
                 id: 1, name: "MLBB Diamonds", nameMm: "MLBB ဒိုင်းမွန်း", category: "gaming", icon: "fas fa-gem", badge: "hot",
                 price: "From 900 Ks", priceMm: "၉၀၀ ကျပ်မှ",
                 packages: [
-                    { name: "Weekly Diamond Pass", price: 6700 }, { name: "Twilight Pass", price: 35800 },
+                    { name: "Weekly Diamond Pass", price: 6800 }, { name: "Twilight Pass", price: 35800 },
                     { name: "Monthly Epic Bundle", price: 17900 }, { name: "Weekly Elite Bundle", price: 3800 },
                     { name: "11 Dia", price: 900 }, { name: "22 Dia", price: 1800 }, { name: "33 Dia", price: 2700 },
                     { name: "44 Dia", price: 3600 }, { name: "56 Dia", price: 4000 }, { name: "112 Dia", price: 8000 },

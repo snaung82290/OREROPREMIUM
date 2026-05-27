@@ -18,7 +18,10 @@
     <!-- Navbar -->
     <nav class="navbar" id="navbar">
         <div class="nav-container">
-            <a href="#" class="nav-logo"><span class="logo-icon"><i class="fas fa-crown"></i></span><span class="logo-text">ORERO<span class="logo-highlight">.SHOP</span></span></a>
+            <a href="#" class="nav-logo">
+    <img src="assets/images/logo-icon.png" alt="icon" class="logo-icon-img">
+    <span class="logo-text">ORERO PREMIUM<span class="logo-highlight">.com</span></span>
+            </a>
             <ul class="nav-menu" id="navMenu">
                 <li><a href="#home" class="nav-link active"><span data-en="Home" data-mm="မူလ">Home</span></a></li>
                 <li><a href="#products" class="nav-link"><span data-en="Products" data-mm="ပစ္စည်းများ">Products</span></a></li>
@@ -27,8 +30,19 @@
                 <li><a href="#contact" class="nav-link"><span data-en="Contact" data-mm="ဆက်သွယ်ရန်">Contact</span></a></li>
             </ul>
             <div class="nav-actions">
-                <button id="langToggle" class="lang-toggle"><span class="lang-option active" data-lang="en">EN</span> | <span class="lang-option" data-lang="mm">MM</span></button>
+            <div class="lang-toggle" id="langToggle">
+            <button class="lang-btn" data-lang="en">EN</button>
+                <span class="lang-divider">|</span>
+            <button class="lang-btn active" data-lang="mm">MM</button>
+            </div>
                 <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+                <div class="toggle-container" id="themeToggle">
+                <div class="toggle-circle">
+                <i class="fa-regular fa-sun icon sun-icon"></i>
+                <i class="fa-regular fa-moon icon moon-icon"></i>
+                </div>
+
+            </div>
             </div>
         </div>
     </nav>
@@ -37,14 +51,31 @@
     <section id="home" class="hero-section">
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <div class="hero-badge"><span class="pulse-dot"></span><span data-en="TRUSTED SHOP • 24/7" data-mm="ယုံကြည်ရသောဆိုင် • ၂၄/၇">TRUSTED SHOP • 24/7</span></div>
-            <h1 class="hero-title"><span class="title-line" data-en="LEVEL UP YOUR" data-mm="မြှင့်တင်လိုက်ပါ">LEVEL UP YOUR</span><span class="title-line gradient-text" data-en="DIGITAL LIFE" data-mm="ဒစ်ဂျစ်တယ်ဘဝ">DIGITAL LIFE</span></h1>
-            <p class="hero-subtitle" data-en="Premium digital products at the best prices. Fast, reliable, and secure." data-mm="အကောင်းဆုံးစျေးနှုန်းများဖြင့် ပရီမီယံဒစ်ဂျစ်တယ်ပစ္စည်းများ။ မြန်ဆန်၊ စိတ်ချရ၊ လုံခြုံ။">Premium digital products at the best prices.</p>
+            <div class="hero-badge"><span class="pulse-dot"></span><span data-en="TRUSTED SHOP • 24/7" data-mm="ယုံကြည်မှုဖြင့် • ၂၄ နာရီ ဝန်ဆောင်မှု">TRUSTED SHOP • 24/7</span></div>
+            <h1 class="hero-title"><span class="title-line" data-en="LEVEL UP YOUR" data-mm="သင့်ရဲ့ Digital လိုအပ်ချက်ကို ">LEVEL UP YOUR</span><quote><span class="title-line gradient-text" data-en="DIGITAL LIFE" data-mm="ဖြည့်ဆည်းလိုက်ပါ">DIGITAL LIFE</span></quote></h1>
+            <p class="hero-subtitle" data-en="Premium digital products at the best prices. Fast, reliable, and secure." data-mm="ပရီမီယံဒစ်ဂျစ်တယ်ပစ္စည်းများကို အကောင်းဆုံးစျေးနှုန်းများဖြင့် မြန်ဆန်၊ စိတ်ချ၊ လုံခြုံစွာ ဝယ်ယူပါ">Premium digital products at the best prices.</p>
             <div class="hero-buttons"><a href="#products" class="btn btn-primary"><i class="fas fa-shopping-cart"></i><span data-en="Shop Now" data-mm="ဝယ်ယူမည်">Shop Now</span></a><a href="#how-to-buy" class="btn btn-outline"><i class="fas fa-info-circle"></i><span data-en="How to Buy" data-mm="ဝယ်ယူနည်း">How to Buy</span></a></div>
-            <div class="hero-stats"><div class="stat-item"><span class="stat-number" data-count="5000">0</span><span>+</span><span class="stat-label" data-en="Happy Customers" data-mm="ကျေနပ်ဖောက်သည်များ">Happy Customers</span></div><div class="stat-item"><span class="stat-number" data-count="100">0</span><span>%</span><span class="stat-label" data-en="Delivery Rate" data-mm="ပို့ဆောင်မှုနှုန်း">Delivery Rate</span></div></div>
+            <div class="hero-stats"><div class="stat-item"><span class="stat-number" data-count="100">0</span class="stat-number"><span class="stat-number">+</span><span class="stat-label" data-en="Happy Customers" data-mm="Customer များရဲ့ ပျော်ရွှင်မှု">Happy Customers</span></div><div class="stat-item"><span class="stat-number" data-count="100">0</span><span class="stat-number">%</span><span class="stat-label" data-en="Delivery Rate" data-mm="ပို့ဆောင်မှုနှုန်း">Delivery Rate</span></div></div>
         </div>
     </section>
-
+    <!-- Promo Marquee -->
+<div class="promo-marquee">
+    <div class="marquee-inner" id="marqueeInner">
+        <span class="marquee-item">🔥 Weekly Pass - 6,700 Ks</span>
+        <span class="marquee-sep">|</span>
+        <span class="marquee-item">✨ Telegram Premium 1 Month - 24,000 Ks</span>
+        <span class="marquee-sep">|</span>
+        <span class="marquee-item">📱 SMS Fee - 10,000 Ks</span>
+        <span class="marquee-sep">|</span>
+        <!-- ဒုတိယအကြိမ် ထပ်ထည့်ထားမှ Infinite Loop ချောမွေ့မယ် -->
+        <span class="marquee-item">🔥 Weekly Pass - 6,700 Ks</span>
+        <span class="marquee-sep">|</span>
+        <span class="marquee-item">✨ Telegram Premium 1 Month - 24,000 Ks</span>
+        <span class="marquee-sep">|</span>
+        <span class="marquee-item">📱 SMS Fee - 10,000 Ks</span>
+        <span class="marquee-sep">|</span>
+    </div>
+</div>
     <!-- Products -->
     <section id="products" class="products-section">
         <div class="section-header"><h2 class="section-title"><span class="title-icon"><i class="fas fa-gem"></i></span><span data-en="Our Products" data-mm="ပစ္စည်းများ">Our Products</span></h2></div>
@@ -57,10 +88,10 @@
         <div class="section-header"><h2 class="section-title"><span class="title-icon"><i class="fas fa-wallet"></i></span><span data-en="Payment Methods" data-mm="ငွေပေးချေနည်းလမ်းများ">Payment Methods</span></h2></div>
         <div class="payment-container">
             <div class="payment-methods-grid">
-                <div class="payment-card"><div class="payment-card-inner"><i class="fas fa-building-columns payment-icon-fallback"></i><span class="payment-name">KBZ Pay</span></div></div>
-                <div class="payment-card"><div class="payment-card-inner"><i class="fas fa-water payment-icon-fallback"></i><span class="payment-name">WavePay</span></div></div>
-                <div class="payment-card"><div class="payment-card-inner"><i class="fas fa-credit-card payment-icon-fallback"></i><span class="payment-name">UAB Pay</span></div></div>
-                <div class="payment-card"><div class="payment-card-inner"><i class="fas fa-landmark payment-icon-fallback"></i><span class="payment-name">AYA Pay</span></div></div>
+                <div class="payment-card"><div class="payment-card-inner"><img src="assets/images/kbz-logo.webp" alt="icon" class="payment-icon"><span class="payment-name">KBZ Pay</span></div></div>
+                <div class="payment-card"><div class="payment-card-inner"><img src="assets/images/wave-logo.png" alt="icon" class="payment-icon"><span class="payment-name">WavePay</span></div></div>
+                <div class="payment-card"><div class="payment-card-inner"><img src="assets/images/uab-logo.jpg" alt="icon" class="payment-icon"><span class="payment-name">UAB Pay</span></div></div>
+                <div class="payment-card"><div class="payment-card-inner"><img src="assets/images/aya-logo.png" alt="icon" class="payment-icon"><span class="payment-name">AYA Pay</span></div></div>
             </div>
             <div class="payment-details-card">
                 <div class="payment-details-header"><i class="fas fa-money-bill-wave"></i><h3 data-en="Payment Details" data-mm="ငွေပေးချေမှုအသေးစိတ်">Payment Details</h3></div>

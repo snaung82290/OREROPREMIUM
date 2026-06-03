@@ -92,9 +92,9 @@
                 id: 4, name: "Telegram Premium", nameMm: "တယ်လီဂရမ် ပရီမီယံ", category: "telegram", icon: "fab fa-telegram-plane", badge: "popular",
                 price: "From 23,800 Ks", priceMm: "၂၃,၈၀၀ ကျပ်မှ",
                 packages: [
-                    { name: "1 Month (Official)", price: 23800, note: "Full Warranty" },
+                    { name: "1 Month (Official)", price: 25000, note: "Full Warranty" },
                     { name: "3 Months (Gift)", price: 48000 }, 
-                    { name: "6 Months (Gift)", price: 68000 },
+                    { name: "6 Months (Gift)", price: 69000 },
                     { name: "1 Year (Gift)", price: 120000 }
                 ]
             },
@@ -102,7 +102,7 @@
                 id: 5, name: "Telegram Stars", nameMm: "တယ်လီဂရမ် စတား", category: "telegram", icon: "fas fa-star", badge: "hot",
                 price: "From 4,000 Ks", priceMm: "၄,၀၀၀ ကျပ်မှ",
                 packages: [
-                    { name: "50 Stars", price: 4000 },
+                    { name: "50 Stars", price: 4300 },
                     { name: "100 Stars", price: 7900 },
                     { name: "150 Stars", price: 11800 },
                     { name: "200 Stars", price: 15700 },
